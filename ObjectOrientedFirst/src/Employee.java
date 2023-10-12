@@ -18,9 +18,8 @@ public class Employee {
 
     }
 
-    public static void Work(){
-
-
+    public void Work(){
+        System.out.println(name + " is new Employee");
     }
 
     public double GetSalary(){
