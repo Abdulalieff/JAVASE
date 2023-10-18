@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         String staticwords  = "'s salary is: ";
-        
+
         Employee employee = new Employee("Ali", 100);
         HRManager hrmanager = new HRManager("Zahra", 200);
 
