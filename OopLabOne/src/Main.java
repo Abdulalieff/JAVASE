@@ -3,8 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        CorpLoan corpLoan = new CorpLoan(1, 1000);
-        RetailLoan retailLoan = new RetailLoan(2, 2000);
+        CorpLoan corpLoan = new CorpLoan(1, 100);
+        RetailLoan retailLoan = new RetailLoan(2, 200);
 
         CorpCustomer corpCustomer = new CorpCustomer(11, "CorpCustomer", corpLoan);
         RetailCustomer retailCustomer = new RetailCustomer(22, "RetailCustomer", retailLoan);
