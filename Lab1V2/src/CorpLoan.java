@@ -5,6 +5,6 @@ public class CorpLoan extends Loan{
 
     @Override
     double getComission() {
-        return 5;
+        return 5; 
     }
 }

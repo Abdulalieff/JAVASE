@@ -10,7 +10,6 @@ public class Main {
 
         double corpCustomerCommission = discountService.discountForLoanCommission(corpCustomer);
         double retailCustomerCommission = discountService.discountForLoanCommission(retailCustomer);
-
         System.out.println("Loan Commission for corporate customer " + corpCustomer.getName() +  ": " + corpCustomerCommission);
         System.out.println("Loan Commission for retail customer " + retailCustomer.getName() + ": " + retailCustomerCommission);
     }
