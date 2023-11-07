@@ -23,12 +23,13 @@ input -> test, code -> output false
 
 
 7. Explain equals and hashcode contract
-     -- 
+     --  if two objects are equal to each other based on equals() method, then the hash code must be the same, but if the hash code is the same, then equals() can return false
+
 8. What is try with resources
  -- Used for automatically close the resources like files, objects(Scanner for ex) when no londer needed.
 
 9. How we can create immutable class
--- Use FINAL keyword when create the class, use private and final for access modifier on all fields, no setter methods needed
+-- Use FINAL keyword when create the class, use private and final for access modifier on all fields, no setter methods needed, if used composition and object is mutable then need to use clone()
 
 10. Which behaviours have Enum
  -- We can use fields, constructors, methods into Enum
