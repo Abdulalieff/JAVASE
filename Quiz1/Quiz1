@@ -57,11 +57,33 @@ input -> test, code -> output false
      -- Is a special method which has no return and the name must be same with Class name , used for initializing the ojects of the class.
 
 16. Which loops you know (write code example)
-     -- for , while, do-while
+     -- for , while, do-while, foreach
      for(int i=0; i<10: i++){
           System.out.println("Good Quiz!");
 
      }
+
+-- while:
+     int count = 1;
+
+        while (count <= 5) {
+            System.out.println("Good Quiz");
+            count++; 
+        }
+-- do-while: 
+     int count = 1;
+
+        do {
+            System.out.println("Good Quiz " );
+            count++;
+        } while (count <= 5);
+
+-- foreach     
+     int[] numbers = {1, 2, 3, 4, 5};
+
+        for (int number : numbers) {
+            System.out.println("Number: " + number);
+        }
 
 17. What is inner classes
      -- Inner class are the classess which defined within another class. Can be static or non-static and have access of the members of outer class including private ones.
