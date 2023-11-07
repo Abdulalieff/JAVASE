@@ -1,0 +1,93 @@
+1. Which OOP principles you know:
+     -- Inheritance, Polymorphism, Abstraction, Encapsulation
+
+2. Explain exception hierarchy
+     -- From root to child: OBJECT -> THROWABLE -> EXCEPTION or ERRORS
+          EXCEPTIONS -> Runtime Exceptions, IO Exceptions, Others...
+
+3. Difference between Stack and Heap
+     -- Heap: Stores objects
+     -- Stack: static memory allocations, stores local variables
+
+4. Why we need static methods and can we override them
+     -- Static methods belong to class and typically used for utility functions, cannot be overriden.
+
+5. Write Java code for finding numbers of maximum element in array -> input [4,1,5,5,1,5] -> output 3
+     
+     -- Github: https://github.com/Abdulalieff/JAVASE/tree/main/Quiz1/src
+
+6. Writing Java code for checking word is anagram(a word or phrase made by transposing the letters of another word or phrase) or not -> input race,care -> output true
+input -> test, code -> output false
+
+     -- Github: https://github.com/Abdulalieff/JAVASE/tree/main/Quiz1/src
+
+
+7. Explain equals and hashcode contract
+     -- 
+8. What is try with resources
+ -- Used for automatically close the resources like files, objects(Scanner for ex) when no londer needed.
+
+9. How we can create immutable class
+-- Use FINAL keyword when create the class, use private and final for access modifier on all fields, no setter methods needed
+
+10. Which behaviours have Enum
+ -- We can use fields, constructors, methods into Enum
+
+11. Which access modifiers you know
+     -- There are 4 of them:
+     public - accessible from any class.
+     private - accessible only from the same class
+     default - accessible from the same package
+     protected - accessible from the same package or subclasses(package private + inheritance)
+
+12. What is String Pool
+   -- Special area in Heap memory to store String objects, when create a String in java it checks whether the same String already exists or not to reduce memory usage
+
+13. Difference between abstract class and interface
+   -- Abstract class should have at least 1 abstract metod and many non-abstract methods but interfaces can have only abstract methods. Classes can implement multiple interfaces while extend only from 1 abstract class.
+
+14. What is JVM, JDK, JRE
+     JDK = JVM + JRE;
+   -- JVM - Java Virtual Machine is the environment for executing Java apps.
+   -- JDK - Java Development Kit which contains the tools and libraries to develop Java apps
+   -- JRE - Java Runtime Environmen which contains pre-built libraries.
+
+15. What is constructor
+     -- Is a special method which has no return and the name must be same with Class name , used for initializing the ojects of the class.
+
+16. Which loops you know (write code example)
+     -- for , while, do-while
+     for(int i=0; i<10: i++){
+          System.out.println("Good Quiz!");
+
+     }
+
+17. What is inner classes
+     -- Inner class are the classess which defined within another class. Can be static or non-static and have access of the members of outer class including private ones.
+
+18. What is initialization blocks
+     -- Execute the code when the instance of class created. Can be a static and static initialization block mostly used for changing the default value of static variables.
+
+19. Difference between throw and throws
+     -- Throw used to throw an exception while Throws used to declare exception that other methods can throw it. Throw is a part of a method but Throws is part of method declaration.
+
+20. What is finally
+     -- Whole expection block contains: try-catch-finally and finally contains the code which will always be executed doesnt matter exception throw or not.
+
+21. Which primitive types you know
+     -- 8 primitive types we have in Java: byte,short,int,long,char,float,double,boolean
+
+22.  int[] arr = new int[3];
+     System.out.println(arr[0]);
+What is output of following code?
+     -- output is 0 because by default array store 0 if no any value assigned
+
+23. Find maximum of 2 elements with ternary operator (example: you have 2 variables int a = 5, int b = 3) output should be 5
+     --  ( a > b ) ? a : b
+
+24. Difference between LocalDate and LocalDateTime
+     -- LocalDateTime contains hours but LocalDate only dates.
+
+25. Explain super and this keyword
+ -- super: used to call superclass's(inheritance) constructor or method
+     this: refer to current instance of the class
