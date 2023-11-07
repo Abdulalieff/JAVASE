@@ -21,4 +21,19 @@ public class Utils {
 
     }
 
+    public static void GetLargest(int[] Numbers) {
+
+        int max= Numbers[0];
+        int cnt_max = 0;
+        for(int number : Numbers){
+            if(max < number) {
+                max = number;
+                cnt_max = 1;
+            }else if(max == number){
+                cnt_max++;
+            }
+        }
+        System.out.printf("Max Repeated %d times \n", cnt_max);
+    }
+
 }

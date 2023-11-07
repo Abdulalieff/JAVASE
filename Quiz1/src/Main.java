@@ -4,9 +4,15 @@ import java.util.Scanner;
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        // Press Opt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
 
+        //5. Write Java code for finding numbers of maximum element in array -> input [4,1,5,5,1,5] -> output 3
+        int[] Numbers = {4,1,5,5,1,5};
+
+        Utils.GetLargest(Numbers);
+
+
+        //6. Writing Java code for checking word is anagram(a word or phrase made by transposing the letters of another word or phrase) or not -> input race,care -> output true
+        //input -> test, code -> output false
 
         Scanner scanner = new Scanner(System.in);
 
@@ -21,6 +27,8 @@ public class Main {
         }else{
             System.out.printf("%s and %s are not anagram", word1, word2);
         }
+
+
 
     }
 }
